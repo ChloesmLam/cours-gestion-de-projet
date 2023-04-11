@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page test </title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
+	<title> Exercice de boîte flottante </title>
+	<style> 
+		.container {
+			border : 10px solid black ;
+			overflow: auto;
+		}
+
+		.box{
+			width : 100px;
+			height: 100px;
+			background-color:paleturquoise;
+			border: 3px solid black;
+			float: left;
+
+			display: inline;
+		}
+
+		#box1{
+			width : 50px;
+			height: 100px;
+			background-color:palevioletred;
+			border: 3px solid black;
+			float: left;
+
+			display: inline;
+		}
+	</style>
 </head>
 <body>
-  <h1> Les magnifiques hippopotames</h1>
-
-  <p>Cette page est une page de test pour le cours de gestion de projet!<br />
-C'est pour tester si on sait mettre en page !</p>
-
-<p>Voici une photo d'un hippopotame:</p>
-
-<img src="baby_hippo.jfif" alt="un bebe hippopotame" style="width:500px;">
-
-<p>les hippopotames sont les animaux les plus mignons!</p>
-<p>il ya des gateaux en forme de hippo</p>
-
-<img src="happy_hippo.jfif" alt="un gateau en forme de hippo" style="width:500px;">
-
-<h2>hope you like it</h2>
-
+	<div class="container">
+		<div class="box"id="box1"> </div>
+		<div class="box"> </div>
+		<div class="box"> </div>
+	</div>
 </body>
 </html>
